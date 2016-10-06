@@ -1,0 +1,16 @@
+#table {
+    border:  1px solid black;
+}
+#table td {
+   border: 1px solid black;
+}
+
+#tableheader {
+    color: #990000;
+    background-color: #ff6666;
+    font-weight: bold;
+}
+
+#navalbattles {
+    background-color: #C0D9D9;
+}
