@@ -33,17 +33,3 @@ table td {
     background-color: #C0D9D9;
 }
 
-#date {
-   text-align:center; 
-}
-#date li:nth-child(3n) {
-    background-color: #666633;
-}
-
-#date li:nth-child(3n-1) {
-    background-color: #999966;
-}
-
-#date li:nth-child(3n-2) {
-    background-color: #cccc99;
-}
