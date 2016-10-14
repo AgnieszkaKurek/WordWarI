@@ -22,21 +22,26 @@ ul.topnav li a:hover {background-color: #555;}
 
 
 table {
-    border:  1px solid black;
-}
-table td {
-   border: 1px solid black;
+    border:  1px solid #000;
 }
 
-.tableheader {
-    color: #990000;
-    background-color: #ff6666;
+th {
+    border: 1px solid #000;
+    display: table-cell;
+    vertical-align: inherit;
     font-weight: bold;
+    text-align: center;
+    background-color: #cc3333;
+    
 }
 
-.navalbattles {
-    background-color: #C0D9D9;
+td {
+   border: 1px solid #000;
+   text-align: center;
+   font-size: 14px;
 }
+
+.navalbattles {background-color: #c0d9d9;}
 
 .date {
    text-align:center; 
