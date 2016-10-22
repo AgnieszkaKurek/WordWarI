@@ -65,3 +65,14 @@ td {
     color: #ffeddb;
 }
 
+.imagepeople {
+   width: 100px;
+   height: 150px;
+}
+
+
+.welcomeimage {
+    float: left;
+    width: 700px;
+}
+
