@@ -53,49 +53,28 @@ ul.topnav li a:hover {background-color: #555;}
     font-size: 0.8em;
 }
 
-.headerpage {
-    font-size: 30px;
-    font-family: headerfont;
-    font-weight: bolder;
-    margin: 20px;
+table {
+    border:  1px solid #000;
 }
 
-
-.importantpeople {
-    width: 100%;
-    float: left;
-}
-.peoplecontent {
-   width: 80%;
-   float: right;
-}
-
-.imagepeople {
-    width: 100px;
-    height: 150px;
-    float: left;
-    margin: 20px;
-    border: 1px solid #4f4f2f;
-    -moz-border-radius: 8px;
-    -webkit-border-radius: 8px;
-    border-radius: 8px;
+th {
+    border: 1px solid #000;
+    display: table-cell;
+    vertical-align: inherit;
+    font-weight: bold;
+    text-align: center;
+    background-color: #cc3333;
     
 }
 
-
-.peopleheader {
-    font-size: 25px;
-    color: #603813;
-    font-weight: bolder;
-    margin-top: 5px;
+td {
+   border: 1px solid #000;
+   text-align: center;
+   font-size: 14px;
 }
 
-.peopledate {
-    font-size: 15px;
-    color:#336600;
-    font-weight: bold;
-    padding-top: 15px;
-}
+.navalbattles {background-color: #c0d9d9;}
+
 
 
 

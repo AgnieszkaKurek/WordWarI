@@ -53,50 +53,24 @@ ul.topnav li a:hover {background-color: #555;}
     font-size: 0.8em;
 }
 
-.headerpage {
-    font-size: 30px;
-    font-family: headerfont;
-    font-weight: bolder;
-    margin: 20px;
+.date {
+   text-align:center; 
+}
+.date li:nth-child(3n) {
+    background-color: #666633;
 }
 
-
-.importantpeople {
-    width: 100%;
-    float: left;
-}
-.peoplecontent {
-   width: 80%;
-   float: right;
+.date li:nth-child(3n-1) {
+    background-color: #999966;
 }
 
-.imagepeople {
-    width: 100px;
-    height: 150px;
-    float: left;
-    margin: 20px;
-    border: 1px solid #4f4f2f;
-    -moz-border-radius: 8px;
-    -webkit-border-radius: 8px;
-    border-radius: 8px;
-    
-}
-
-
-.peopleheader {
-    font-size: 25px;
-    color: #603813;
-    font-weight: bolder;
-    margin-top: 5px;
-}
-
-.peopledate {
-    font-size: 15px;
-    color:#336600;
-    font-weight: bold;
-    padding-top: 15px;
+.date li:nth-child(3n-2) {
+    background-color: #cccc99;
 }
 
 
 
-
+.date li :hover {
+    background-color: #432100;
+    color: #ffeddb;
+}
