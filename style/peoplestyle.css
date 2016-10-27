@@ -1,6 +1,10 @@
 body {
    margin-left: auto;
    margin-right: auto;
+   background: -webkit-linear-gradient(left, #bdbdbd, #696969);
+   background: -o-linear-gradient(right, #bdbdbd, #696969);
+   background: -moz-linear-gradient(right,#bdbdbd, #696969);
+   background: linear-gradient(to right,#bdbdbd, #696969);
 }
 
 
@@ -30,17 +34,29 @@ ul.topnav li a {
 
 ul.topnav li a:hover {background-color: #555;}
 
-
-.welcomeimage {
+.gradient {
+    background: -webkit-linear-gradient(left, #666333, #696969);
+    background: -o-linear-gradient(right, #666333, #696969);
+    background: -moz-linear-gradient(right,#666333, #696969);
+    background: linear-gradient(to right,#666333, #696969);
+    
+}
+.welcome {
     float: left;
     width: 700px;
+    
+}
+.welcomeimage {
+    border: 1px solid #f3f3f3;
+    -moz-border-radius: 8px;
+    -webkit-border-radius: 8px;
+    border-radius: 8px;
 }
 .pageimage {
-   
     width: 290px;
 }
+
 .inscription {
-   
     background: -webkit-linear-gradient(left, #666333, #4f4f2f);
     background: -o-linear-gradient(right, #666333, #4f4f2f);
     background: -moz-linear-gradient(right,#666333, #4f4f2f);
@@ -71,14 +87,14 @@ ul.topnav li a:hover {background-color: #555;}
 }
 
 .imagepeople {
-    width: 100px;
-    height: 150px;
+    width: 150px;
+    height: 200px;
     float: left;
     margin: 20px;
     border: 1px solid #4f4f2f;
-    -moz-border-radius: 8px;
-    -webkit-border-radius: 8px;
-    border-radius: 8px;
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+    border-radius: 10px;
     
 }
 

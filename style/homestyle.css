@@ -1,6 +1,10 @@
 body {
    margin-left: auto;
    margin-right: auto;
+   background: -webkit-linear-gradient(left, #bdbdbd, #696969);
+   background: -o-linear-gradient(right, #bdbdbd, #696969);
+   background: -moz-linear-gradient(right,#bdbdbd, #696969);
+   background: linear-gradient(to right,#bdbdbd, #696969);
 }
 
 
@@ -31,16 +35,29 @@ ul.topnav li a {
 ul.topnav li a:hover {background-color: #555;}
 
 
-.welcomeimage {
+.gradient {
+    background: -webkit-linear-gradient(left, #666333, #696969);
+    background: -o-linear-gradient(right, #666333, #696969);
+    background: -moz-linear-gradient(right,#666333, #696969);
+    background: linear-gradient(to right,#666333, #696969);
+    
+}
+.welcome {
     float: left;
     width: 700px;
+    
+}
+.welcomeimage {
+    border: 1px solid #f3f3f3;
+    -moz-border-radius: 8px;
+    -webkit-border-radius: 8px;
+    border-radius: 8px;
 }
 .pageimage {
-   
     width: 290px;
 }
+
 .inscription {
-   
     background: -webkit-linear-gradient(left, #666333, #4f4f2f);
     background: -o-linear-gradient(right, #666333, #4f4f2f);
     background: -moz-linear-gradient(right,#666333, #4f4f2f);
@@ -51,4 +68,17 @@ ul.topnav li a:hover {background-color: #555;}
     border-radius: 8px;
     color: #f3f3f3;
     font-size: 0.8em;
+}
+
+.headerpage {
+    font-size: 30px;
+    font-family: headerfont;
+    font-weight: bolder;
+    margin: 20px;
+}
+
+.greatwar{
+   margin-left: 20px;
+   margin-right: 20px;
+
 }
