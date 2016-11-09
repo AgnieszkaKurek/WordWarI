@@ -3,8 +3,9 @@
 <head>
     <meta charset="utf-8"/>
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrom1" />
-    <link rel="stylesheet" href="../style/peoplestyle.css"/>
-
+    <link rel="stylesheet" href="../style/gallerystyle.css"/>
+    <script src="../bower_components/jquery/dist/jquery.js"></script>
+    <script src="../script.js"></script>
 </head>
 <body>
     <div class="nav">
@@ -32,12 +33,12 @@
   </div>
      </br>
      </br>
-  <div class="slideviewer" onload="zmienslajd()">  
-     <span onclick="ustawslajd(1)" style="cursor:pointer;">[1]</span> 
-     <span onclick="ustawslajd(2)" style="cursor:pointer;">[2]</span>
-     <span onclick="ustawslajd(3)" style="cursor:pointer;">[3]</span>
-     <span onclick="ustawslajd(4)" style="cursor:pointer;">[4]</span>
-     <span onclick="ustawslajd(5)" style="cursor:pointer;">[5]</span>
+  <div class="slideviewer" onload="changeslide()">  
+     <span onclick="setslide(1)" style="cursor:pointer;">[1]</span> 
+     <span onclick="setslide(2)" style="cursor:pointer;">[2]</span>
+     <span onclick="setslide(3)" style="cursor:pointer;">[3]</span>
+     <span onclick="setslide(4)" style="cursor:pointer;">[4]</span>
+     <span onclick="setslide(5)" style="cursor:pointer;">[5]</span>
      <div id="slider"></div>        
 
   </div>
