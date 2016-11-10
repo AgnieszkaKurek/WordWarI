@@ -19,7 +19,7 @@ var number = Math.floor(Math.random() * 5) + 1;
         {
             number++; if (number > 5) number = 1;
 
-            var file = "<img src=\"../slides/slide" + number +".jpg\"/>"  ;
+            var file = "<img src=\"../images/slides/slide" + number +".jpg\"/>"  ;
 
             document.getElementById("slider").innerHTML = file;
             $("#slider").fadeIn(500);
