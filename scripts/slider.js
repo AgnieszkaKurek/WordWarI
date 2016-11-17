@@ -1,6 +1,6 @@
 'use strict';
 
-var number = Math.floor(Math.random() * 5) + 1;
+var number = Math.floor(Math.random() * 22) + 1;
         var timer1 = 0;
         var timer2 = 0; 
         function setslide(noslide)
@@ -17,7 +17,7 @@ var number = Math.floor(Math.random() * 5) + 1;
         }
         function changeslide()
         {
-            number++; if (number > 5) number = 1;
+            number++; if (number > 22) number = 1;
 
             var file = "<img src=\"../images/slides/slide" + number +".jpg\"/>"  ;
 
