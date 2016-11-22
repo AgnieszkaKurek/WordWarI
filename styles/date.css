@@ -1,28 +1,4 @@
 
-.pageimage {
-    width: 290px;
-}
-
-.inscription {
-    background: -webkit-linear-gradient(left, #666333, #4f4f2f);
-    background: -o-linear-gradient(right, #666333, #4f4f2f);
-    background: -moz-linear-gradient(right,#666333, #4f4f2f);
-    background: linear-gradient(to right,#666333, #4f4f2f);
-    border: 1px solid #4f4f2f;
-    -moz-border-radius: 8px;
-    -webkit-border-radius: 8px;
-    border-radius: 8px;
-    color: #f3f3f3;
-    font-size: 0.8em;
-}
-
-.headerpage {
-    font-size: 30px;
-    font-family: headerfont;
-    font-weight: bolder;
-    margin: 20px;
-}
-
 
 .date {
    text-align:center; 
