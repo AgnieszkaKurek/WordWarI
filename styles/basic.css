@@ -47,13 +47,13 @@ ul.topnav li a:hover {background-color: #555;}
     width: 700px;
     
 }
-.welcomeimage {
+.welcomeImage {
     border: 1px solid #f3f3f3;
     -moz-border-radius: 8px;
     -webkit-border-radius: 8px;
     border-radius: 8px;
 }
-.pageimage {
+.pageImage {
     width: 290px;
 }
 
@@ -70,7 +70,7 @@ ul.topnav li a:hover {background-color: #555;}
     font-size: 0.8em;
 }
 
-.headerpage {
+.headerPage {
     font-size: 30px;
     font-family: headerfont;
     font-weight: bolder;
