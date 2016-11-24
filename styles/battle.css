@@ -9,8 +9,7 @@ th {
     vertical-align: inherit;
     font-weight: bold;
     text-align: center;
-    background-color: #cc3333;
-    
+    background-color: #cc3333;  
 }
 
 td {
@@ -19,9 +18,6 @@ td {
    font-size: 14px;
 }
 
-.navalBattles {background-color: #c0d9d9;}
-
-
-
-
-
+.navalBattles {
+    background-color: #c0d9d9;
+}

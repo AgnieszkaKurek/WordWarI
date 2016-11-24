@@ -7,7 +7,6 @@ body {
    background: linear-gradient(to right,#bdbdbd, #696969);
 }
 
-
 ul.topnav {
     list-style-type: none;
     margin: 0;
@@ -20,7 +19,9 @@ ul.topnav {
     border: 1px solid #4f4f2f;
 }
 
-ul.topnav li {float: left;}
+ul.topnav li {
+    float: left;
+}
 
 ul.topnav li a {
     display: inline-block;
@@ -32,27 +33,29 @@ ul.topnav li a {
     font-size: 17px;
 }  
 
-ul.topnav li a:hover {background-color: #555;}
-
+ul.topnav li a:hover {
+    background-color: #555;
+}
 
 .gradient {
     background: -webkit-linear-gradient(left, #666333, #696969);
     background: -o-linear-gradient(right, #666333, #696969);
     background: -moz-linear-gradient(right,#666333, #696969);
-    background: linear-gradient(to right,#666333, #696969);
-    
+    background: linear-gradient(to right,#666333, #696969);   
 }
+
 .welcome {
     float: left;
     width: 700px;
-    
 }
+
 .welcomeImage {
     border: 1px solid #f3f3f3;
     -moz-border-radius: 8px;
     -webkit-border-radius: 8px;
     border-radius: 8px;
 }
+
 .pageImage {
     width: 290px;
 }
@@ -76,6 +79,3 @@ ul.topnav li a:hover {background-color: #555;}
     font-weight: bolder;
     margin: 20px;
 }
-
-
-

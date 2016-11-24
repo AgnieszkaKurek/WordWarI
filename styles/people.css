@@ -1,9 +1,8 @@
-
-
 .importantPeople {
     width: 100%;
     float: left;
 }
+
 .peopleContent {
    width: 80%;
    float: right;
@@ -17,10 +16,8 @@
     border: 1px solid #4f4f2f;
     -moz-border-radius: 10px;
     -webkit-border-radius: 10px;
-    border-radius: 10px;
-    
+    border-radius: 10px; 
 }
-
 
 .peopleHeader {
     font-size: 25px;
@@ -35,7 +32,3 @@
     font-weight: bold;
     padding-top: 15px;
 }
-
-
-
-
