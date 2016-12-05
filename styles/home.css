@@ -1,4 +1,19 @@
-.greatWar{
+.greatWar {
    margin-left: 20px;
    margin-right: 20px;
+}
+
+button {
+    padding: 10px;
+    background: -webkit-linear-gradient(left, #666333, #696969);
+    background: -o-linear-gradient(right, #666333, #696969);
+    background: -moz-linear-gradient(right,#666333, #696969);
+    background: linear-gradient(to right,#666333, #696969);
+    border: 1px solid #f3f3f3; 
+    border-radius: 8px;
+   
+}
+
+.buttonOne {
+    text-align: center;
 }
