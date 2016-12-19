@@ -1,3 +1,6 @@
+
 .slideViewer {
- /*This is not the final version, the style will be complemented*/
+    text-align: center;
+    cursor: pointer;
+    height: 150 px;
 }
