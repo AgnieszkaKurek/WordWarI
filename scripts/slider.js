@@ -17,8 +17,11 @@ function hide() {
 }
 
 function changeSlide() {
-    number++; if (number > 22) number = 1;
-    var file =`<img src="../images/slides/slide${number}.jpg"/>` ;
+    number++;
+    if (number > 22) {
+        number = 1;
+    };
+    var file = `<img src="../images/slides/slide${number}.jpg"/>`;
     document.getElementById("slider").innerHTML = file;
     $("#slider").fadeIn(500);
     timer1 = setTimeOut("changeSlide()", 5000);
