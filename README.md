@@ -10,7 +10,7 @@ Work on the site is still in progress.
 
 ## Features
 
-Website was created using html, css, javaScript and jquery.
+Website was created using html, css, javaScript and jQuery.
 
 ## Prerequisites:
 
