@@ -10,9 +10,9 @@ Work on the site is still in progress.
 
 ## Features
 
-Website was created using languages: html, CSS, and frameworks: jquery (). 
+Website was created using html, css, javaScript and jQuery.
+
 ## Prerequisites:
 
 * download and install node
-* install node http server: npm install -g http-server
 * bower install
