@@ -1,6 +1,6 @@
 'use strict';
 
-var number = Math.floor(Math.random() * 22) + 1;
+var number = Math.floor(Math.random() * 21) + 1;
 var timer1 = 0;
 var timer2 = 0;
 
@@ -18,8 +18,8 @@ function hide() {
 
 function changeSlide() {
     number++;
-    if (number > 22) {
-        number = 1;
+    if (number > 21) {
+        number = 0;
     };
     var file = `<img src="../images/slides/slide${number}.jpg"/>`;
     document.getElementById("slider").innerHTML = file;
