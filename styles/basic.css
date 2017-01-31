@@ -7,6 +7,10 @@ body {
    background: linear-gradient(to right,#bdbdbd, #696969);
 }
 
+.container {
+ padding: 30px;
+}
+
 ul.topnav {
     list-style-type: none;
     margin: 0;
@@ -54,6 +58,17 @@ ul.topnav li a:hover {
     -moz-border-radius: 8px;
     -webkit-border-radius: 8px;
     border-radius: 8px;
+    height: 400px;
+    width: 600px;
+}
+
+.welcomeImageWar {
+    border: 1px solid #f3f3f3;
+    -moz-border-radius: 8px;
+    -webkit-border-radius: 8px;
+    border-radius: 8px;
+    height: 296px;
+    width: 486px;
 }
 
 .pageImage {
