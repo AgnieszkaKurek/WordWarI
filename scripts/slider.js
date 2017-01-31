@@ -1,6 +1,6 @@
 'use strict';
-var slides = 22; 
-var number = Math.floor(Math.random() * slides) + 1;
+var numberOfSlides = 22; 
+var number = Math.floor(Math.random() * numberOfSlides) + 1;
 var timer1 = 0;
 var timer2 = 0;
 
@@ -18,7 +18,7 @@ function hide() {
 
 function changeSlide() {
     number++;
-    if (number > slides) {
+    if (number > numberOfSlides) {
         number = 1;
     };
     var file = `<img src="../images/slides/slide${number}.jpg"/>`;
