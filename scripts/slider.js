@@ -28,6 +28,4 @@ function changeSlide() {
     timer2 = setTimeout("hide()", 4500);
 }
 
-$(document).ready(function changeSlide(){
-   $("#changeSlideLoad")
-});
+$ (document) .ready (changeSlide); 
