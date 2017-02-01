@@ -29,5 +29,4 @@ function changeSlide() {
 }
 
 $(document).ready(function changeSlide(){
-   $("#changeSlideLoad")
 });
