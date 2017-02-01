@@ -27,3 +27,5 @@ function changeSlide() {
     timer1 = setTimeout("changeSlide()", 5000);
     timer2 = setTimeout("hide()", 4500);
 }
+
+$ (document) .ready (changeSlide); 
