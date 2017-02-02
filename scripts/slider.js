@@ -8,11 +8,11 @@ function setSlide(noSlide) {
     clearTimeout(timer1);
     clearTimeout(timer2);
     number = noSlide - 1;
-    hide();
+    hideSlide();
     setTimeout(changeSlide, 500);
 }
 
-function hide() {
+function hideSlide() {
     $("#slider").fadeOut(500);
 }
 
@@ -25,7 +25,7 @@ function changeSlide() {
     document.getElementById("slider").innerHTML = file;
     $("#slider").fadeIn(500);
     timer1 = setTimeout(changeSlide, 5000);
-    timer2 = setTimeout(hide, 4500);
+    timer2 = setTimeout(hideSlide, 4500);
 }
 
 $(document).ready(changeSlide); 
