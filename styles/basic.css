@@ -21,6 +21,7 @@ ul.topnav {
     background: -moz-linear-gradient(right,#666333, #4f4f2f);
     background: linear-gradient(to right,#666333, #4f4f2f);
     border: 1px solid #4f4f2f;
+    border-radius: 8px;
 }
 
 ul.topnav li {
@@ -45,7 +46,8 @@ ul.topnav li a:hover {
     background: -webkit-linear-gradient(left, #666333, #696969);
     background: -o-linear-gradient(right, #666333, #696969);
     background: -moz-linear-gradient(right,#666333, #696969);
-    background: linear-gradient(to right,#666333, #696969);   
+    background: linear-gradient(to right,#666333, #696969); 
+    height: 430px;
 }
 
 .welcome {
@@ -86,7 +88,8 @@ ul.topnav li a:hover {
     border-radius: 8px;
     color: #f3f3f3;
     font-size: 0.8em;
-    margin-bottom: 40px;
+    margin-top: 50px;
+
 }
 
 .headerPage {
