@@ -28,4 +28,13 @@ function changeSlide() {
     timer2 = setTimeout(hideSlide, 4500);
 }
 
-$(document).ready(changeSlide); 
+function  publishSlideMenu(){
+    var SlideMenu = '<span class="imagesG" onclick="setSlide(1)" >[1]</span>';
+    for (i = 1; i <= numberOfSlides; i++) 
+    document.getElementById("SlideMenu").innerHTML = SlideMenu;
+}
+
+$(document).ready(function(){
+    publishSlideMenu;
+    changeSlide;
+}); 
