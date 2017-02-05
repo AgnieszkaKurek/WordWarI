@@ -36,7 +36,6 @@ function publishSlideMenu() {
     $("#slideMenu").html(menu);
 }
 
-
 $(document).ready(function () {
     publishSlideMenu();
     changeSlide();
