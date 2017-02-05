@@ -28,16 +28,16 @@ function changeSlide() {
     timer2 = setTimeout(hideSlide, 4500);
 }
 
-function  publishSlideMenu() {
+function publishSlideMenu() {
     var menu = "";
     for (var i = 1; i <= numberOfSlides; i++) {
-      menu += `<span class="imagesG" onclick="setSlide(${i})" >[${i}]</span>`;
+        menu += `<span class="imagesG" onclick="setSlide(${i})" >[${i}]</span>`;
     }
     $("#slideMenu").html(menu);
 }
-    
 
-$(document).ready(function(){
+
+$(document).ready(function () {
     publishSlideMenu();
     changeSlide();
 }); 
