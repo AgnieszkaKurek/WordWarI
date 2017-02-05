@@ -22,19 +22,22 @@ function changeSlide() {
         number = 1;
     };
     var file = `<img src="../images/slides/slide${number}.jpg"/>`;
-    document.getElementById("slider").innerHTML = file;
+    $("#slider").html(file);
     $("#slider").fadeIn(500);
     timer1 = setTimeout(changeSlide, 5000);
     timer2 = setTimeout(hideSlide, 4500);
 }
 
-function  publishSlideMenu(){
-    var SlideMenu = '<span class="imagesG" onclick="setSlide(1)" >[1]</span>';
-    for (i = 1; i <= numberOfSlides; i++) 
-    document.getElementById("SlideMenu").innerHTML = SlideMenu;
+function  publishSlideMenu() {
+    var menu = "";
+    for (var i = 1; i <= numberOfSlides; i++) {
+      menu += `<span class="imagesG" onclick="setSlide(${i})" >[${i}]</span>`;
+    }
+    $("#slideMenu").html(menu);
 }
+    
 
 $(document).ready(function(){
-    publishSlideMenu;
-    changeSlide;
+    publishSlideMenu();
+    changeSlide();
 }); 
