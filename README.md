@@ -1,4 +1,4 @@
-# WordWarI
+# WorldWarI
 Simple Web page about World War I.
 The website provides important information about the Great War:
 - data on major battles,
